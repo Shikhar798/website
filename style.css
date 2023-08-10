@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+button {
+    margin-left: 50px;
+    width: 100px;
+    border-radius: 2px solid black;
+
+}
+
+button:hover {
+    background-color: rgb(4, 4, 4);
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    align-items: center;
+    display: flex;
+    background-color: #8c9090fa;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.menu-list :hover {
+    color: rgb(176, 74, 190);
+}
+
+li {
+    font-size: 22px;
+    margin-right: 60px;
+}
+
+.logo img {
+    height: 40px;
+    width: 30px;
+    border-radius: 4px;
+    padding: 3px;
+
+}
+
+.logo {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    margin-top: 100px;
+}
+
+.left {
+    width: 500px;
+}
+
+.title {
+    margin-left: 10px;
+    font-size: 250%;
+    color: rgb(210, 82, 82);
+}
+
+.title strong {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 60px;
+    color: rgb(49, 162, 126);
+}
+
+.msg {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.cta {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.right {
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
